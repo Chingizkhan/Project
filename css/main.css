@@ -1,0 +1,341 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    color: #333;
+}
+
+/* ПЕРВЫЙ БЛОК */
+.header {
+    background: #fcdb00;
+    padding-top: 58px;
+    padding-bottom: 106px;
+}
+
+.block1 {
+
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu__item__2 {
+    margin: 0 70px;
+}
+
+.menu__item a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.375rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.menu__item a:hover {
+    background-color: #e7c904;
+}
+
+.menu__item a:focus {
+    background-color: #e7c904;
+}
+
+.inform {
+    margin-top: 135px;
+}
+
+.inform__title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.inform__title2 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+}
+
+.inform__text {
+    line-height: 1.2rem;
+    color: #555;
+    width: 400px;
+}
+
+.icon {
+    font-size: 42px;
+}
+
+.icon2 {
+    margin: 0 35px;
+}
+
+.icons {
+    margin-top: 36px;
+}
+
+.icon a:hover {
+    color: #ff4800;
+    transition: 0.2s all ease;
+}
+
+.ipad {
+    background: url('../img/ipad-new.png') no-repeat center center;
+    width: 380px;
+    height: 470px;
+    margin-top: 70px;
+}
+
+/* ВТОРОЙ ЭКРАН */
+
+.title {
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 90px;
+}
+
+.title__main {
+    font-size: 2rem;
+}
+
+.title__info {
+    width: 735px;
+    font-size: 1.250rem;
+}
+
+.title__main {
+    font-size: 2rem;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.title__info {
+    width: 735px;
+    font-size: 1.250rem;
+    margin: 0 auto;
+    line-height: 1.5rem;
+}
+
+.adv__1 {
+    width: 282px;
+}
+
+.adv__info {
+    width: 207px;
+}
+
+.adv__title {
+    font-size: 1.375rem;
+    font-weight: 700;
+    padding-bottom: 12px;
+}
+
+.adv__text {
+    font-size: 1rem;
+    width: 209px;
+    color: #898989;
+    line-height: 1.3rem;
+}
+
+
+.adv__i {
+    margin-right: 37px;
+}
+
+.adv__size {
+    font-size: 3.125rem;
+    padding: 0;
+    line-height: 3.125rem;
+}
+
+.advantages {
+    padding-bottom: 70px;
+}
+
+/* ТРЕТЬЯ СЕКЦИЯ */
+
+.section__3 {
+    background-color: #010101;
+    padding-bottom: 32px;
+}
+
+.title__main__3 {
+    color: #fcdb00;
+}
+
+.title__info__3 {
+    color: #898989;
+    width: 744px;
+}
+
+.title__3 {
+    text-align: center;
+    padding-top: 115px;
+    padding-bottom: 40px;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__input {
+    width: 580px;
+    outline: 0;
+    padding: 15px 23px;
+    height: 49px;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 16px;
+}
+
+.form__btn {
+    text-transform: uppercase;
+    background: #fcdb00;
+    border: 0;
+    border-radius: 5px;
+    padding: 0 32px;
+    height: 49px;
+    font-weight: 700;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #010101;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.footer__text {
+    text-align: center;
+    color: #fff;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+/* MEDIA ENQUIRES */
+
+@media screen and (max-width: 1200px) {
+    .menu {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .inform__title {
+        text-align: center;
+    }
+
+    .inform__title2 {
+        text-align: center;
+    }
+
+    .inform__text {
+        margin: auto;
+    }
+
+    .menu {
+        margin-top: 5px;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+
+    .ipad {
+        width: 100%;
+    }
+
+    .form__btn {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title__info {
+        width: 100%;
+    }
+
+    .form__input {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .form__btn {
+        width: 100%;
+    }
+
+    .menu__item__2 {
+        margin: 0 30px;
+    }
+
+    .menu {
+        margin-top: 5px;
+        margin-right: 20px;
+    }
+
+    .adv__1 {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header__logo {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu__item__2 {
+        margin: 0;
+    }
+
+    .menu__item {
+        width: 100%;
+        padding: 5px 0 5px 120px;
+        
+    }
+
+    .inform {
+        margin-top: 50px;
+    }
+
+    .inform__text {
+        width: 100%;
+    }
+}
